@@ -1,0 +1,39 @@
+body{
+	background-image: url(image.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: auto;
+
+}
+.spacer{
+	margin-bottom: 340px;
+}
+.col{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+hr{
+	background-color: orange;
+	
+	width: 100px;
+	height:12px;
+	border-radius: 32px;
+
+	
+
+}
+.adjust{
+	position: relative;
+	top:150px;
+	height: 300px;
+}
+.btn{
+	transition: 1s;
+}
+.btn:hover{
+	border-radius: 32px;
+	background-color: orange;
+	transform: scale(1.1);
+}
